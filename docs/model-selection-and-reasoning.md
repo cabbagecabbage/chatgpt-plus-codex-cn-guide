@@ -44,7 +44,7 @@ Luna Max（日常主力） → Terra Max（第一升档） → Sol xHigh（第�
 - Sol Medium 胜在综合智能和浏览检索：Agents’ Last Exam（Sol Medium +1.60）、Artificial Analysis Intelligence Index（Sol Medium +2.35）、BrowseComp（Sol Medium +0.16）。
 - Coding Index 持平，都是 74.6。
 
-> **结论：**Luna Max 与 Sol Medium 性能基本持平，两者在 9 项评测中的整体表现接近；Luna 成本低 83%，更具性价比。
+> **结论：** Luna Max 与 Sol Medium 性能基本持平，两者在 9 项评测中的整体表现接近；Luna 成本低 83%，更具性价比。
 
 ## 五、六个档位放在一起看
 
@@ -54,18 +54,18 @@ Luna Max（日常主力） → Terra Max（第一升档） → Sol xHigh（第�
 |---|---:|---:|---:|---:|---:|---:|---|
 | **Luna Max** | **$393.63** | 基准 | 7 胜 2 负 | - | - | - | 日常主力 |
 | **Terra xHigh** | **$1,598.01** | 2 胜 7 负 | 基准 | - | - | - | 中间档，不作为主路线 |
-| **Terra Max** | **$2,874.30** | 9 胜 0 负 | 9 胜 0 负 | 基准 | - | - | 第一升档 |
+| **Terra Max** | **$2,874.31** | 9 胜 0 负 | 9 胜 0 负 | 基准 | - | - | 第一升档 |
 | **Sol High** | **$3,311.73** | 8 胜 1 负 | 8 胜 0 负 1 平 | 4 胜 4 负 1 平 | 基准 | - | 中间档，不作为主路线 |
 | **Sol xHigh** | **$4,634.45** | 9 胜 0 负 | 9 胜 0 负 | 9 胜 0 负 | 9 胜 0 负 | 基准 | 第二升档 |
 | **Sol Max** | **$7,194.82** | 9 胜 0 负 | 9 胜 0 负 | 9 胜 0 负 | 9 胜 0 负 | 8 胜 1 负 | 最终攻坚 |
 
-> **升级路线：**从这张表基本可以确定，Luna Max → Terra Max → Sol xHigh → Sol Max。这几个档位在指标上能明显拉开差距；其他几个模型 x 推理强度组合作为升级档的意义不大。
+> **升级路线：** 从这张表基本可以确定，Luna Max → Terra Max → Sol xHigh → Sol Max。这几个档位在指标上能明显拉开差距；其他几个模型 x 推理强度组合作为升级档的意义不大。
 
-> **实际使用：**不必机械升档：你感觉 Luna 搞不定的（用多了你会有感觉），或者实际使用确实搞不定的，直接上 Terra Max、Sol xHigh 或 Sol Max。
+> **实际使用：** 不必机械升档：你感觉 Luna 搞不定的（用多了你会有感觉），或者实际使用确实搞不定的，直接上 Terra Max、Sol xHigh 或 Sol Max。
 
 ## 六、Luna Max、Terra Max、Sol xHigh、Sol Max 的具体表现
 
-成本按 Luna ×0.2、Terra ×0.8、Sol ×1.0 计算。9 项评测的总成本为：Luna Max **$393.63**、Terra Max **$2,874.30**、Sol xHigh **$4,634.45**、Sol Max **$7,194.82**。
+成本按 Luna ×0.2、Terra ×0.8、Sol ×1.0 计算。9 项评测的总成本为：Luna Max **$393.63**、Terra Max **$2,874.31**、Sol xHigh **$4,634.45**、Sol Max **$7,194.82**。
 
 每个单元格为“得分 / 降价后估算成本”，成本单位为美元。
 
