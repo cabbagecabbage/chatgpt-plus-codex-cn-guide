@@ -1,4 +1,4 @@
-# ChatGPT Plus 国内订阅与 Codex 使用避坑指南（2026.8.1）
+# ChatGPT Plus 国内订阅与 Codex 使用避坑指南（2026.8.6）
 
 ## 写在前面
 
