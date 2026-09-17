@@ -4,8 +4,6 @@
   <img src="docs/images/guide-cover.svg" alt="ChatGPT Plus × Codex：从订阅到用好，少走弯路。注册订阅、真实踩坑记录与模型选择指南。" width="100%">
 </p>
 
-<p align="center">从开通 Plus 到选好模型，把楼主踩过的坑和实际使用经验整理给你。</p>
-
 | 账号准备 | 付款订阅 | 使用 Codex | 三档滑块工具 |
 | :--- | :--- | :--- | :--- |
 | 准备邮箱，注册 ChatGPT 账号 | 准备美区 Apple ID 和礼品卡，开通 Plus | 按任务选择模型与推理强度 | 一次选好常用模型与推理强度 |
