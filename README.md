@@ -399,49 +399,21 @@ Gmail 主要用于注册 ChatGPT 账号；如果你已经有其他可长期使�
 
 ## 十三、Codex 模型与推理强度选择
 
-### 楼主目前怎么选（2026 年 9 月 13 日更新）
+楼主目前的选择：
 
-最近楼主主要使用三个档位：**Luna Max、Sol High 和 Astra Medium（GPT-6）**。怎么选，主要看任务类型，以及自己更在意额度、完成速度，还是模型的判断力。
+- **Luna Max**：简单任务，省额度。
+- **Sol High**：需求明确、有测试和验收的工程开发。
+- **Astra Medium**：方案、机制、架构和 Skill 设计。
 
-> 以下都是楼主个人使用中的体感，没有做严格的对照测试。速度指完成整个任务的速度；额度消耗和压缩频率也只是使用观察，供大家参考。
-
-```text
-Luna Max（节省额度） → Sol High（工程开发） → Astra Medium（机制、架构与 Skill 设计）
-```
-
-这几个档位不用逐级尝试，可以根据任务直接选。楼主现在比较看重的一点是：**这个任务有没有明确的验收标准，能不能通过测试和实际运行来判断结果好不好。**
-
-| 使用场景 | 楼主倾向的档位 | 主要考虑 |
-|---|---|---|
-| 简单需求，比较在意额度，可以多等一会儿 | Luna Max | 成本低，很多日常任务都能搞定 |
-| 需求明确、有测试和验收机制的工程开发 | Sol High | 工程能力强，体感比 Luna Max 完成任务更快 |
-| 方案、机制、架构和 Skill 设计 | Astra Medium | 更容易抓住重点，适合依赖判断力和设计质量的任务 |
+按任务直接选，不用逐级尝试。详细理由和评测见[模型与推理强度选择分析](docs/model-selection-and-reasoning.md)。
 
 ### 把常用组合放进滑块（macOS）
 
-选好这三档以后，每次分别选择模型和推理强度还是有点麻烦。楼主把自己用的脚本整理成了开源项目 **[Codex Model Slider（中文说明）](https://github.com/cabbagecabbage/codex-model-slider/blob/main/README.zh-CN.md)**，将默认滑块改成 **Luna Max → Sol High → Astra Medium**，拖一下就能同时切换模型与推理强度，也可以修改脚本里的三个组合。
+楼主的开源工具 **[Codex Model Slider（中文说明）](https://github.com/cabbagecabbage/codex-model-slider/blob/main/README.zh-CN.md)**，把滑块改成 **Luna Max → Sol High → Astra Medium**，拖一下就能同时切换模型与推理强度。
 
-**一行安装到桌面，以后双击启动。** 缺少 Node.js 时，脚本会自动检查、下载并校验，无需自己配置。效果截图、安装命令和使用说明见[项目中文介绍](https://github.com/cabbagecabbage/codex-model-slider/blob/main/README.zh-CN.md#快速使用)。
+**一行安装到桌面，以后双击启动。** [查看安装命令和使用说明 →](https://github.com/cabbagecabbage/codex-model-slider/blob/main/README.zh-CN.md#快速使用)
 
-目前适用于 macOS，应用需位于 `/Applications/ChatGPT.app`，账号本身需要支持对应模型。启动前先结束正在运行的任务，脚本会重启应用并临时调整滑块；完全退出后从 Dock 正常打开即可恢复默认滑块。脚本依赖应用内部接口，应用更新可能影响兼容性；不会解锁模型或增加额度。
-
-如果这个小工具对你有帮助，欢迎到[项目页面](https://github.com/cabbagecabbage/codex-model-slider/blob/main/README.zh-CN.md)点个 **Star ⭐** 支持一下，也欢迎提 Issue 分享你的常用组合和使用反馈～
-
-### 额度、智能与完成速度的取舍
-
-**Luna Max 的优势是省额度，但需要付出等待时间。** 最近使用下来，楼主体感它在这三个常用档位中完成任务最慢，长任务中也更容易遇到上下文压缩。如果需求比较简单，又不着急，Luna Max 仍然很合适。
-
-**Sol High 是楼主更倾向使用的工程开发档位。** 相比 Luna Max，楼主体感它完成任务更快，处理复杂问题更稳；在长任务里，往往能在一次上下文中推进更多工作，压缩没那么频繁，任务状态也保持得更好。代价是额度消耗高出不少。这些观察不能直接归因于推理长短，具体差异也会受到任务和上下文使用方式的影响。
-
-对于需求明确、能够通过测试和实际运行持续验证的代码任务，即使系统复杂、实现难度很高，楼主也会优先考虑 Sol High。它像一个很强悍的工程师，能围绕明确的目标持续推进，再根据验证结果修正。
-
-**方案、机制、架构和 Skill 设计，楼主则更倾向于直接上 Astra Medium。** 这类任务很难仅靠测试通过来保证设计质量，往往需要模型理解意图、发现问题、权衡方案。楼主体感 Astra 在这些方面更容易说到点子上，表达更精炼，完成任务也比前两个常用档位更快。楼主希望借助它更强的判断力，尽可能减少来回修改和返工。
-
-这类设计工作通常也是人与 AI 一起思考的过程：AI 给出方案，人要阅读、判断，再继续交流。少量的设计讨论不一定会产生很大的总用量，因此，即使 Astra 消耗额度更快，楼主也愿意在这些环节使用它。
-
-如果打个比方，**Sol 像一个很强悍的工程师，Astra 像一个非常聪明的设计师。** 楼主目前的选择就是：简单任务用 Luna 省额度，明确的工程任务用 Sol，需要更多判断力的设计任务用 Astra。
-
-更详细的选择说明，以及此前 Luna、Terra、Sol 的评测与成本分析，见[《Codex 模型与推理强度选择详细分析》](docs/model-selection-and-reasoning.md)。旧评测不包含 Astra，也没有验证上述速度和压缩频率的体感。
+觉得有用，欢迎到[项目页面](https://github.com/cabbagecabbage/codex-model-slider)点个 **Star ⭐**！
 
 ---
 
