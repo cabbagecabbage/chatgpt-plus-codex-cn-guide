@@ -120,7 +120,19 @@ Gmail 主要用于注册 ChatGPT 账号；如果你已经有其他可长期使�
 
 ### 注册美区 Apple ID
 
-楼主注册时参考了这篇[美区 Apple ID 图文教程](https://zhuanlan.zhihu.com/p/1894384007493433126)。跟着教程来即可。
+原先引用的第三方图文教程有读者反馈无法打开，现改为以下 Apple 官方中文资料，按需阅读即可。Apple ID 现在叫作“Apple 账户”，两种名称指的是同一个账号。
+
+| 你要做什么 | 官方资料 | 页面标注的发布日期 |
+|---|---|---|
+| 注册新账号，查看网页或设备上的图文步骤 | [如何创建新的 Apple 账户](https://support.apple.com/zh-cn/108647) | 2026 年 9 月 15 日 |
+| 已有账号，需要了解更改国家或地区的步骤和条件 | [更改 Apple 账户国家或地区](https://support.apple.com/zh-cn/118283) | 2026 年 4 月 15 日 |
+| 注册时提示“此时无法创建你的账户”等错误 | [无法创建 Apple 账户的处理方法](https://support.apple.com/zh-cn/120636) | 2026 年 4 月 22 日 |
+
+**注册入口：[account.apple.com](https://account.apple.com/)**。点击“创建你的 Apple 账户”，按页面填写邮箱、密码、国家或地区、生日和可长期使用的手机号，再完成邮箱与手机验证。具体字段和要求以 Apple 当前页面为准；第一篇指南中的“在网页上创建 Apple 账户”一节有详细说明。
+
+新建账号与把旧账号改区是两种流程。旧账号改区前，需要处理账户余额、相关订阅等事项，也可能需要新地区的有效付款方式；请先看第二篇指南，不要直接套用新建账号的步骤。
+
+以上链接于 2026 年 9 月 17 日核查可访问；本次核查的是文档内容，未重新实测美区注册全流程。
 
 ### 购买美区 Apple Gift Card
 
@@ -318,11 +330,13 @@ Luna Max（节省额度） → Sol High（工程开发） → Astra Medium（机
 
 ### 把常用组合放进滑块（macOS）
 
-选好这三档以后，每次分别选择模型和推理强度还是有点麻烦。楼主把自己用的脚本整理成了开源项目 **[Codex Model Slider](https://github.com/cabbagecabbage/codex-model-slider)**，将默认滑块改成 **Luna Max → Sol High → Astra Medium**，拖一下就能同时切换模型与推理强度，也可以修改脚本里的三个组合。
+选好这三档以后，每次分别选择模型和推理强度还是有点麻烦。楼主把自己用的脚本整理成了开源项目 **[Codex Model Slider（中文说明）](https://github.com/cabbagecabbage/codex-model-slider/blob/main/README.zh-CN.md)**，将默认滑块改成 **Luna Max → Sol High → Astra Medium**，拖一下就能同时切换模型与推理强度，也可以修改脚本里的三个组合。
 
 **一行安装到桌面，以后双击启动。** 缺少 Node.js 时，脚本会自动检查、下载并校验，无需自己配置。效果截图、安装命令和使用说明见[项目中文介绍](https://github.com/cabbagecabbage/codex-model-slider/blob/main/README.zh-CN.md#快速使用)。
 
 目前适用于 macOS，应用需位于 `/Applications/ChatGPT.app`，账号本身需要支持对应模型。启动前先结束正在运行的任务，脚本会重启应用并临时调整滑块；完全退出后从 Dock 正常打开即可恢复默认滑块。这是依赖内部接口的非官方工具，应用更新可能影响兼容性，不会解锁模型或增加额度。
+
+如果这个小工具对你有帮助，欢迎到[项目页面](https://github.com/cabbagecabbage/codex-model-slider/blob/main/README.zh-CN.md)点个 **Star ⭐** 支持一下，也欢迎提 Issue 分享你的常用组合和使用反馈～
 
 ### 额度、智能与完成速度的取舍
 
