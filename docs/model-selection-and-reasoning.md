@@ -26,6 +26,10 @@
 
 > 这是个人使用建议，没有做严格的对照测试。下面的速度指完成整个任务的速度，额度消耗和压缩频率也都是使用观察。
 
+### 在桌面端快速切换这三档
+
+楼主把这套组合做成了开源小工具 **[Codex Model Slider](https://github.com/cabbagecabbage/codex-model-slider)**：在 macOS 桌面端把常用模型与推理强度放进三档滑块，一行安装到桌面，以后双击启动，缺少 Node.js 时自动准备。效果截图、运行条件和恢复默认的方法见[项目中文说明](https://github.com/cabbagecabbage/codex-model-slider/blob/main/README.zh-CN.md)。这是方便手动切换的非官方工具，不会自动选模或增加模型权限。
+
 ## 三、实际体验
 
 ### 2026 年 9 月 13 日：三个常用档位的取舍

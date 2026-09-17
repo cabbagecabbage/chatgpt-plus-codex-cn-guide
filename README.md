@@ -53,6 +53,7 @@ ChatGPT Work 和 Codex 的注册、订阅与使用流程基本一致，但 Codex
 | 使用楼主自用中转 | [第九章：楼主自用中转](#九楼主自用中转) |
 | 比较 Codex 周额度和中转站的性价比 | [第十章：Codex 周额度理论倍率与中转站性价比对比](#十codex-周额度理论倍率与中转站性价比对比) |
 | 选择 Codex 模型、推理强度和升档路线 | [第十一章：Codex 模型与推理强度选择](#十一codex-模型与推理强度选择) |
+| 把常用模型与推理强度放进三档滑块（macOS） | [楼主的开源小工具：Codex Model Slider](#把常用组合放进滑块macos) |
 
 ---
 
@@ -314,6 +315,14 @@ Luna Max（节省额度） → Sol High（工程开发） → Astra Medium（机
 | 简单需求，比较在意额度，可以多等一会儿 | Luna Max | 成本低，很多日常任务都能搞定 |
 | 需求明确、有测试和验收机制的工程开发 | Sol High | 工程能力强，体感比 Luna Max 完成任务更快 |
 | 方案、机制、架构和 Skill 设计 | Astra Medium | 更容易抓住重点，适合依赖判断力和设计质量的任务 |
+
+### 把常用组合放进滑块（macOS）
+
+选好这三档以后，每次分别选择模型和推理强度还是有点麻烦。楼主把自己用的脚本整理成了开源项目 **[Codex Model Slider](https://github.com/cabbagecabbage/codex-model-slider)**，将默认滑块改成 **Luna Max → Sol High → Astra Medium**，拖一下就能同时切换模型与推理强度，也可以修改脚本里的三个组合。
+
+**一行安装到桌面，以后双击启动。** 缺少 Node.js 时，脚本会自动检查、下载并校验，无需自己配置。效果截图、安装命令和使用说明见[项目中文介绍](https://github.com/cabbagecabbage/codex-model-slider/blob/main/README.zh-CN.md#快速使用)。
+
+目前适用于 macOS，应用需位于 `/Applications/ChatGPT.app`，账号本身需要支持对应模型。启动前先结束正在运行的任务，脚本会重启应用并临时调整滑块；完全退出后从 Dock 正常打开即可恢复默认滑块。这是依赖内部接口的非官方工具，应用更新可能影响兼容性，不会解锁模型或增加额度。
 
 ### 额度、智能与完成速度的取舍
 
