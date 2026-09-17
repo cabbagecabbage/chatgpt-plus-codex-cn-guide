@@ -1,50 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="768" height="249.6" viewBox="0 0 1200 390" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="768" height="204.8" viewBox="0 0 1200 320" fill="none">
   <title>ChatGPT Plus × Codex — 从订阅到用好，少走弯路。</title>
-  <desc>中文使用指南：注册与订阅、真实踩坑记录、模型与推理强度选择。深色背景与薄荷绿色路线卡片。</desc>
+  <desc>注册订阅、避坑经验、模型选择。深色背景与薄荷绿点缀的简洁中文指南横幅。</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="390" gradientUnits="userSpaceOnUse"><stop stop-color="#102C2B"/><stop offset=".6" stop-color="#101D25"/><stop offset="1" stop-color="#111827"/></linearGradient>
-    <radialGradient id="glow"><stop stop-color="#61EBC0" stop-opacity=".15"/><stop offset="1" stop-color="#61EBC0" stop-opacity="0"/></radialGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" stroke="#A7F3D0" stroke-opacity=".035"/></pattern>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse"><stop stop-color="#102C2B"/><stop offset="1" stop-color="#111827"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#61EBC0" stop-opacity=".12"/><stop offset="1" stop-color="#61EBC0" stop-opacity="0"/></radialGradient>
   </defs>
-  <rect x="1" y="1" width="1198" height="388" rx="24" fill="url(#bg)" stroke="#2D444B"/>
-  <rect x="1" y="1" width="1198" height="388" rx="24" fill="url(#grid)"/>
-  <ellipse cx="935" cy="185" rx="290" ry="195" fill="url(#glow)"/>
-  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">
-    <rect x="48" y="39" width="224" height="28" rx="14" fill="#183F36" stroke="#326857"/>
-    <circle cx="64" cy="53" r="4" fill="#80F4C9"/>
-    <text x="78" y="58" fill="#B5F9DE" font-size="12" font-weight="600" letter-spacing="1.4">THE PRACTICAL GUIDE</text>
-    <text x="48" y="126" fill="#F1F8F6" font-size="46" font-weight="700" letter-spacing="-1.5">ChatGPT Plus <tspan fill="#6AE6BE">×</tspan> Codex</text>
-    <text x="48" y="186" fill="#F1F8F6" font-size="35" font-weight="650">从订阅到用好，少走弯路。</text>
-    <text x="49" y="227" fill="#AFC5C6" font-size="18">写给中文用户的注册、订阅与使用避坑指南</text>
-    <path d="M49 262H619" stroke="#355052"/>
-    <g font-size="15" fill="#B7CFCD">
-      <text x="49" y="296"><tspan fill="#73E9C2">01</tspan> 注册与订阅</text>
-      <text x="244" y="296"><tspan fill="#73E9C2">02</tspan> 真实踩坑记录</text>
-      <text x="454" y="296"><tspan fill="#73E9C2">03</tspan> 模型怎么选</text>
+  <rect x="1" y="1" width="1198" height="318" rx="24" fill="url(#bg)" stroke="#2D444B"/>
+  <ellipse cx="600" cy="120" rx="490" ry="180" fill="url(#glow)"/>
+  <path d="M563 48H637" stroke="#6AE6BE" stroke-width="4" stroke-linecap="round"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">
+    <text x="600" y="124" fill="#F1F8F6" font-size="58" font-weight="700" letter-spacing="-1.5">ChatGPT Plus <tspan fill="#6AE6BE">×</tspan> Codex</text>
+    <text x="600" y="179" fill="#CEE0DC" font-size="30" font-weight="500">从订阅到用好，少走弯路。</text>
+    <g fill="#142F2D" stroke="#31564C">
+      <rect x="328" y="222" width="160" height="42" rx="21"/>
+      <rect x="520" y="222" width="160" height="42" rx="21"/>
+      <rect x="712" y="222" width="160" height="42" rx="21"/>
     </g>
-    <text x="49" y="351" fill="#8EA9AA" font-size="13" letter-spacing=".5">个人经验 · 持续补充 · 欢迎交流</text>
-    <rect x="710" y="40" width="441" height="309" rx="18" fill="#0D1A20" stroke="#33504F"/>
-    <circle cx="734" cy="64" r="4" fill="#59817A"/><circle cx="748" cy="64" r="4" fill="#59817A"/><circle cx="762" cy="64" r="4" fill="#59817A"/>
-    <text x="1126" y="69" text-anchor="end" fill="#8DA9AA" font-size="11" letter-spacing="1.5">YOUR NEXT STEP</text>
-    <path d="M711 83H1150" stroke="#29433F"/>
-    <path d="M747 124V280" stroke="#396A5B" stroke-width="2"/>
-    <g>
-      <circle cx="747" cy="124" r="12" fill="#234B3F" stroke="#6AE6BE"/>
-      <path d="m742 124 3 3 6-6" stroke="#91F5D2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-      <text x="775" y="120" fill="#EDF7F2" font-size="19" font-weight="600">先把账号准备好</text>
-      <text x="775" y="145" fill="#91AAA8" font-size="13">邮箱 / Apple ID / Plus 订阅</text>
-    </g>
-    <g>
-      <circle cx="747" cy="202" r="12" fill="#234B3F" stroke="#6AE6BE"/>
-      <path d="m742 202 3 3 6-6" stroke="#91F5D2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-      <text x="775" y="198" fill="#EDF7F2" font-size="19" font-weight="600">少踩已经踩过的坑</text>
-      <text x="775" y="223" fill="#91AAA8" font-size="13">付款绑定 / 手机验证 / 登录状态</text>
-    </g>
-    <g>
-      <circle cx="747" cy="280" r="12" fill="#80F4C9"/>
-      <path d="M742 280h10m-4-4 4 4-4 4" stroke="#12382B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-      <text x="775" y="276" fill="#EDF7F2" font-size="19" font-weight="600">把模型用在合适的任务上</text>
-      <text x="775" y="301" fill="#91AAA8" font-size="13">额度成本 / 推理强度 / 三档滑块</text>
+    <g fill="#A9E9D1" font-size="19">
+      <text x="408" y="250">注册订阅</text>
+      <text x="600" y="250">避坑经验</text>
+      <text x="792" y="250">模型选择</text>
     </g>
   </g>
 </svg>
