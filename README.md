@@ -454,3 +454,11 @@ Gmail 主要用于注册 ChatGPT 账号；如果你已经有其他可长期使�
 ### 2026 年 7 月 21 日
 
 今天 `0.05` 倍率线路不稳定，楼主使用时出现断联；切换到 `0.08` 倍率线路后恢复正常，后续再观察一下。
+
+---
+
+## 许可协议
+
+© 2026 [cabbagecabbage](https://github.com/cabbagecabbage)。本项目原创内容采用 [CC BY-NC-SA 4.0（署名—非商业性使用—相同方式共享）](LICENSE) 协议。欢迎非商业转载与改编，请保留作者署名、[项目链接](https://github.com/cabbagecabbage/chatgpt-plus-codex-cn-guide)及协议说明，注明修改，并按协议要求以相同方式分享。商业使用须另行获得授权。[查看协议中文说明](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)。
+
+第三方引用内容、图片及截图中的第三方内容，其权利归原权利人所有，不在本项目的授权范围内。
