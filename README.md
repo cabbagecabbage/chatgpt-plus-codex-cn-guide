@@ -12,67 +12,33 @@
   <a href="https://github.com/cabbagecabbage/chatgpt-plus-codex-cn-guide/stargazers"><img src="https://img.shields.io/github/stars/cabbagecabbage/chatgpt-plus-codex-cn-guide?style=flat-square&amp;label=Star&amp;color=E9CB83&amp;labelColor=172C2B" alt="GitHub Stars"></a>
 </p>
 
-<p align="center">
-  <a href="#subscribe"><strong>开通 Plus</strong></a> ·
-  <a href="#before-paying"><strong>付款前看避坑</strong></a> ·
-  <a href="#models"><strong>选择模型</strong></a> ·
-  <a href="#start"><strong>阅读路线</strong></a>
-</p>
+楼主用的是 **美区 Apple ID + 礼品卡，在 iPhone 上订阅 Plus** 这条路线。下面按实际操作顺序写，从第一步往下做即可；已经完成的步骤略过就好。
 
-| 准备注册与订阅 | 已经开始用 Codex | 想把常用操作变简单 |
-| :--- | :--- | :--- |
-| 邮箱、Apple ID、礼品卡与 Plus 订阅，把步骤串起来 | 手机验证、额度成本、模型与推理强度，结合实际经验选择 | 用开源三档滑块，一次选好模型与推理强度 |
-| [从付款前检查开始 →](#before-paying) | [看看模型怎么选 →](#models) | [查看滑块工具（中文）→](https://github.com/cabbagecabbage/codex-model-slider/blob/main/README.zh-CN.md) |
+这篇记录的是楼主的实际经验，非官方指南。觉得有帮助，欢迎点个 **Star ⭐** 支持一下～
 
-**觉得有帮助，欢迎点个 Star ⭐ 支持一下！** 有新经验或发现内容需要更新，也欢迎[提 Issue](https://github.com/cabbagecabbage/chatgpt-plus-codex-cn-guide/issues)，一起把这份指南补充得更好。
+<a name="start"></a><a name="一先确定自己的需求"></a><a name="二章节跳转目录"></a>
 
 <details>
-<summary>写在前面：这份指南从哪里来？</summary>
+<summary>目录：想查某一部分时再展开</summary>
 
-楼主把自己在注册、订阅和使用中的经历整理在这里，希望帮后来者少走弯路。操作步骤放在正文，退款、申诉截图和长期使用记录留在展开内容及附录里，大家按需阅读即可。
-
-这是个人经验整理，非官方指南。各项经历标注了时间；遇到页面或账号要求变化时，也欢迎提 Issue 补充。
+1. [准备邮箱和 ChatGPT 账号](#accounts)
+2. [准备美区 Apple ID](#apple-id)
+3. [购买并兑换美区礼品卡](#gift-card)
+4. [开通 ChatGPT Plus](#subscribe)
+5. [Codex 登录与手机验证](#codex)
+6. [模型与推理强度怎么选](#models)
+7. [中转与成本比较](#relay)
+8. [使用记录与延伸阅读](#history)
 
 </details>
-
----
-
-<a name="start"></a>
-<a name="一先确定自己的需求"></a>
-<a name="二章节跳转目录"></a>
-
-## 从哪里开始看？
-
-| 你现在的情况 | 建议阅读路线 |
-|---|---|
-| 还没订阅，准备开始 | [付款前检查](#before-paying) → [准备账号](#accounts) → [开通 Plus](#subscribe) |
-| 已有账号和美区 Apple ID，只差付款 | [付款前检查](#before-paying) → [礼品卡与订阅](#subscribe) |
-| 已经订阅，准备使用 Codex | [Codex 登录与验证](#codex) |
-| 已经在用，想选好模型 | [模型与推理强度](#models) → [三档滑块工具](#slider) |
-| 额度不够，想了解备选方案 | [中转与成本比较](#relay) |
-| 想看楼主的经历和截图 | [退款记录](#楼主心路历程)、[手机验证申诉](#phone-record)、[历史使用记录](#history) |
-
-如果主要用 ChatGPT 做对话、调研或文档，可以先看注册订阅部分；准备让 Codex 修改代码、运行测试或处理 Git，则继续看登录与选模部分。已有的账号和准备步骤都可以跳过。
-
-<a name="before-paying"></a>
-
-## 付款前，先确认这三件事
-
-- **确认要使用的 ChatGPT 账号。** 登录后核对账号邮箱，后面注册、付款和登录 Codex 都围绕这个账号进行。
-- **确认负责付款的 Apple ID。** 楼主曾遇到换了 ChatGPT 账号后，付款仍关联旧账号的情况。尤其是曾给其他账号买过订阅的 Apple ID，先核对订阅归属，不要急着重复付款。
-- **如果主要为了用 Codex，先尝试登录。** 楼主在 2026 年 7 月遇到过手机号验证和后续二次验证；先了解自己的账号是否出现验证要求、能否长期接收验证码，再决定付款。具体经历见[登录与验证](#codex)。
-
-还没有账号的话，先按下一节准备，付款前再回来核对这三项。订阅绑错、重复付款等问题的处理记录放在[订阅常见问题](#subscription-help)。
 
 <a name="accounts"></a>
 <a name="三注册-gmail"></a>
 <a name="四注册-chatgpt-账号"></a>
 
-## 准备邮箱和 ChatGPT 账号
+## 第一步：准备邮箱和 ChatGPT 账号
 
-### 已有账号可以跳过
-
-已有可使用的 ChatGPT 账号，直接去[开通 Plus](#subscribe)。没有账号的话，先准备一个自己能长期使用的邮箱；楼主采用的是 Gmail 加 Google 登录的方式。
+先准备一个自己能长期使用的邮箱，再注册 ChatGPT。楼主采用的是 Gmail 加 Google 登录的方式；已有 ChatGPT 账号，这一步就完成了。
 
 ### 准备 Gmail
 
@@ -104,21 +70,19 @@
 
 以后登录 ChatGPT、Codex 桌面端、CLI 或 IDE 扩展时，都继续使用相同的登录方式和 Gmail，并核对是否进入了同一个账号，避免把订阅买到另一个账号上。
 
-<a name="subscribe"></a>
-<a name="五注册美区-apple-id"></a>
-<a name="六通过美区-apple-id-为-chatgpt-添加订阅"></a>
+如果你主要为了用 Codex，建议此时先用这个账号尝试登录 Codex 桌面端。楼主在 2026 年 7 月遇到过手机验证及后续二次验证；如果你的页面也要求验证，先确认自己能完成、号码以后还能接收验证码，再花钱订阅。这里先确认能否登录，详细经历放在后面的 Codex 章节。
 
-## 开通 ChatGPT Plus
+<a name="apple-id"></a><a name="五注册美区-apple-id"></a>
 
-这里记录的是楼主采用的 **美区 Apple ID → 美区礼品卡 → iOS 内购 Plus** 路线，需要能够使用 App Store 的 iPhone 或 iPad。已有美区 Apple ID 就跳过第一步，余额也已准备好则直接看第三步。付款前先完成上面的[账号核对](#before-paying)。
+## 第二步：准备美区 Apple ID
 
-如果你打算直接在 ChatGPT 网页端付款，按账号页面显示的付款方式和优惠操作即可，不需要照着下面准备 Apple ID 和礼品卡。
-
-### 第一步：准备美区 Apple ID
+这条订阅路线需要能使用 App Store 的 iPhone 或 iPad，以及一个自己管理的美区 Apple ID。已有美区 Apple ID，就不用重新注册。
 
 美区 Apple ID 的注册教程网上有很多，可以在 Google 搜索“美区 Apple ID 注册教程”，参考搜索结果中的知乎、GitHub 等平台上的经验文章，优先选择发布时间较近、步骤和截图比较完整的教程。一般跟着教程一步步操作，问题不会太大。注册完成后，再继续看下文的美区礼品卡和 Plus 订阅步骤。
 
-### 第二步：购买美区 Apple Gift Card
+<a name="gift-card"></a>
+
+## 第三步：购买并兑换美区礼品卡
 
 楼主优先通过支付宝购买美区 Apple Gift Card。
 
@@ -136,7 +100,15 @@
 
 购买后，按礼品卡页面的说明兑换到准备付款的美区 Apple ID，确认余额到账，再继续订阅。
 
-### 第三步：在 ChatGPT App 中订阅
+<a name="subscribe"></a><a name="六通过美区-apple-id-为-chatgpt-添加订阅"></a>
+
+## 第四步：开通 ChatGPT Plus
+
+<a name="before-paying"></a>
+
+**付款前核对两个账号：ChatGPT 里登录的是谁，App Store 里付款的是谁。** 楼主曾遇到换了 ChatGPT 账号后，付款仍关联旧账号的情况。如果这个 Apple ID 曾给其他 ChatGPT 账号买过订阅，先弄清订阅归属，再决定是否付款。
+
+确认无误后，按下面的步骤操作：
 
 1. App Store 登录准备付款的美区 Apple ID，下载 OpenAI 官方 ChatGPT App。
 2. 在 ChatGPT App 登录目标账号，再次核对邮箱。
@@ -146,7 +118,10 @@
 
 <a name="subscription-help"></a>
 
-### 订阅遇到问题怎么办？
+完成后，目标账号显示 Plus，这条订阅流程就走完了。只使用 ChatGPT 的读者到这里即可；准备使用 Codex，再继续往下看。
+
+<details>
+<summary>订阅没成功、绑错账号或想退款？展开查看处理经验</summary>
 
 | 遇到的问题 | 先做什么 |
 |---|---|
@@ -154,6 +129,8 @@
 | 扣款后，当前 ChatGPT 账号没有显示订阅 | 核对 ChatGPT 登录账号、付款 Apple ID 和购买记录，确认订阅归属后再联系客服。 |
 | 换账号后再次购买，仍关联旧账号 | 先看下面楼主的退款记录。楼主当时注销账号、重新购买并未解决归属问题，不建议在未弄清原因时继续付款。 |
 | 想退款或继续申诉 | 先查看购买记录及申请状态。楼主经历中首次退款获批、后续申请被拒，不能把退款当成一定可行的补救方式。 |
+
+</details>
 
 <a name="楼主心路历程"></a>
 
