@@ -19,10 +19,10 @@
   <a href="#二章节跳转目录"><strong>全部章节</strong></a>
 </p>
 
-| 准备注册与订阅 | 已经开始用 Codex | 想把常用操作变简单 |
-| :--- | :--- | :--- |
-| 邮箱、Apple ID、礼品卡与 Plus 订阅，把步骤串起来 | 手机验证、额度成本、模型与推理强度，结合实际经验选择 | 用开源三档滑块，一次选好模型与推理强度 |
-| [从准备账号开始 →](#三注册-gmail) | [看看模型怎么选 →](#十一codex-模型与推理强度选择) | [查看滑块工具（中文）→](https://github.com/cabbagecabbage/codex-model-slider/blob/main/README.zh-CN.md) |
+| 注册账号 | 付款订阅 | 使用 Codex | 三档滑块工具 |
+| :--- | :--- | :--- | :--- |
+| 准备邮箱，注册 ChatGPT 账号 | 准备美区 Apple ID 和礼品卡，开通 Plus | 按任务选择模型与推理强度 | 一次选好常用模型与推理强度 |
+| [从注册开始 →](#三注册-gmail) | [查看订阅步骤 →](#六通过美区-apple-id-为-chatgpt-添加订阅) | [看看模型怎么选 →](#十一codex-模型与推理强度选择) | [查看工具（中文）→](https://github.com/cabbagecabbage/codex-model-slider/blob/main/README.zh-CN.md) |
 
 **觉得有帮助，欢迎点个 Star ⭐ 支持一下！** 有新经验或发现内容需要更新，也欢迎[提 Issue](https://github.com/cabbagecabbage/chatgpt-plus-codex-cn-guide/issues)，一起把这份指南补充得更好。
 
