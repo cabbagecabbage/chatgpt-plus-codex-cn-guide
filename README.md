@@ -294,6 +294,8 @@ Gmail 主要用于注册 ChatGPT 账号；如果你已经有其他可长期使�
 
 ## 九、Codex 短信接码
 
+如果你有 **100% 纯净且长期稳定的家宽 IP**，可跳过本章，直接看[第十章：使用 CC Switch 切换登录状态](#十使用-cc-switch-切换登录状态避免反复退出登录)。
+
 > [!IMPORTANT]
 > 刚需 Codex 的用户请重点阅读本章。如果你只使用网页/移动端 ChatGPT 或 ChatGPT Work，不需要桌面端 Codex，可以跳过。
 
