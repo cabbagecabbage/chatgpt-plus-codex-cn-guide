@@ -7,16 +7,9 @@
 <p align="center">从开通 Plus 到选好模型，把楼主踩过的坑和实际使用经验整理给你。</p>
 
 <p align="center">
-  <a href="#二章节跳转目录"><img src="https://img.shields.io/badge/阅读指南-简体中文-78E5BC?style=flat-square&amp;labelColor=172C2B" alt="阅读指南：简体中文"></a>
-  <a href="#附录楼主使用记录持续更新"><img src="https://img.shields.io/badge/使用记录-持续补充-91C8F6?style=flat-square&amp;labelColor=172C2B" alt="使用记录：持续补充"></a>
-  <a href="https://github.com/cabbagecabbage/chatgpt-plus-codex-cn-guide/stargazers"><img src="https://img.shields.io/github/stars/cabbagecabbage/chatgpt-plus-codex-cn-guide?style=flat-square&amp;label=Star&amp;color=E9CB83&amp;labelColor=172C2B" alt="GitHub Stars"></a>
-</p>
-
-<p align="center">
-  <a href="#六通过美区-apple-id-为-chatgpt-添加订阅"><strong>开通 Plus</strong></a> ·
-  <a href="#五付款前必须知道的事"><strong>付款前看避坑</strong></a> ·
-  <a href="#十一codex-模型与推理强度选择"><strong>选择模型</strong></a> ·
-  <a href="#二章节跳转目录"><strong>全部章节</strong></a>
+  <a href="#六通过美区-apple-id-为-chatgpt-添加订阅"><strong>美区礼品卡订阅</strong></a>　·　
+  <a href="#五付款前必须知道的事"><strong>付款与验证避坑</strong></a>　·　
+  <a href="#十一codex-模型与推理强度选择"><strong>Codex 三档选模</strong></a>
 </p>
 
 | 账号准备 | 付款订阅 | 使用 Codex | 三档滑块工具 |
