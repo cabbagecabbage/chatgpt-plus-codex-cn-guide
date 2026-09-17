@@ -37,7 +37,7 @@
     </tr>
     <tr>
       <td width="25%" align="center"><a href="#三注册-gmail">从注册开始 →</a></td>
-      <td width="25%" align="center"><a href="#六通过美区-apple-id-为-chatgpt-添加订阅">查看订阅步骤 →</a></td>
+      <td width="25%" align="center"><a href="#五付款前必须知道的事">付款前必读 →</a></td>
       <td width="25%" align="center"><a href="#十一codex-模型与推理强度选择">查看模型选择 →</a></td>
       <td width="25%" align="center"><a href="https://github.com/cabbagecabbage/codex-model-slider/blob/main/README.zh-CN.md">查看工具（中文）→</a></td>
     </tr>
