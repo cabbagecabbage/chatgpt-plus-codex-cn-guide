@@ -19,30 +19,10 @@
   <a href="#二章节跳转目录"><strong>全部章节</strong></a>
 </p>
 
-<table width="100%">
-  <thead>
-    <tr>
-      <th width="25%" align="center">账号准备</th>
-      <th width="25%" align="center">付款订阅</th>
-      <th width="25%" align="center">使用 Codex</th>
-      <th width="25%" align="center">三档滑块工具</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td width="25%" align="center" valign="top">准备邮箱<br>注册 ChatGPT 账号</td>
-      <td width="25%" align="center" valign="top">准备 Apple ID 与礼品卡<br>开通 Plus 订阅</td>
-      <td width="25%" align="center" valign="top">按任务选择模型<br>搭配合适的推理强度</td>
-      <td width="25%" align="center" valign="top">把常用组合放进滑块<br>一次选好模型与强度</td>
-    </tr>
-    <tr>
-      <td width="25%" align="center"><a href="#三注册-gmail">从注册开始 →</a></td>
-      <td width="25%" align="center"><a href="#五付款前必须知道的事">付款前必读 →</a></td>
-      <td width="25%" align="center"><a href="#十一codex-模型与推理强度选择">查看模型选择 →</a></td>
-      <td width="25%" align="center"><a href="https://github.com/cabbagecabbage/codex-model-slider/blob/main/README.zh-CN.md">查看工具（中文）→</a></td>
-    </tr>
-  </tbody>
-</table>
+| 账号准备 | 付款订阅 | 使用 Codex | 三档滑块工具 |
+| :--- | :--- | :--- | :--- |
+| 准备邮箱，注册 ChatGPT 账号 | 准备美区 Apple ID 和礼品卡，开通 Plus | 按任务选择模型与推理强度 | 一次选好常用模型与推理强度 |
+| [从注册开始 →](#三注册-gmail) | [付款前必读 →](#五付款前必须知道的事) | [看看模型怎么选 →](#十一codex-模型与推理强度选择) | [查看工具（中文）→](https://github.com/cabbagecabbage/codex-model-slider/blob/main/README.zh-CN.md) |
 
 **觉得有帮助，欢迎点个 Star ⭐ 支持一下！** 有新经验或发现内容需要更新，也欢迎[提 Issue](https://github.com/cabbagecabbage/chatgpt-plus-codex-cn-guide/issues)，一起把这份指南补充得更好。
 
