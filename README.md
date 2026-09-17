@@ -389,7 +389,7 @@ Gmail 主要用于注册 ChatGPT 账号；如果你已经有其他可长期使�
 > [!WARNING]
 > **你真的有这么大用量吗？**
 >
-> 模型和推理强度会影响额度消耗，也要结合完成任务的速度来选择。此前按 Luna 降价后的口径估算，Luna Max 在所选 9 项评测中的总成本比 Sol Medium 低约 83%；这不等于实际订阅额度也会节省同样的比例。楼主目前按任务选择 Luna Max、Sol High 或 Astra Medium，见[第十三章：Codex 模型与推理强度选择](#十三codex-模型与推理强度选择)。
+> 模型和推理强度会影响额度消耗，也要结合完成任务的速度来选择。此前按 Luna 降价后的口径估算，Luna Max 在所选 9 项评测中的总成本比 Sol Medium 低约 83%。楼主目前按任务选择 Luna Max、Sol High 或 Astra Medium，见[第十三章：Codex 模型与推理强度选择](#十三codex-模型与推理强度选择)。
 
 ---
 
