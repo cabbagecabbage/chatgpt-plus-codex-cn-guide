@@ -9,7 +9,7 @@
 | 准备邮箱，注册 ChatGPT 账号 | 准备美区 Apple ID 和礼品卡，开通 Plus | 按任务选择模型与推理强度 | 一次选好常用模型与推理强度 |
 | [从注册开始 →](#三注册-gmail) | [付款前必读 →](#五付款前必须知道的事) | [看看模型怎么选 →](#十一codex-模型与推理强度选择) | [查看工具（中文）→](https://github.com/cabbagecabbage/codex-model-slider/blob/main/README.zh-CN.md) |
 
-**觉得有帮助，欢迎点个 Star ⭐ 支持一下！** 有新经验或发现内容需要更新，也欢迎[提 Issue](https://github.com/cabbagecabbage/chatgpt-plus-codex-cn-guide/issues)，一起把这份指南补充得更好。
+<p align="center"><strong>觉得有帮助，欢迎点个 Star ⭐ 支持一下！</strong> 有新经验或发现内容需要更新，也欢迎<a href="https://github.com/cabbagecabbage/chatgpt-plus-codex-cn-guide/issues">提 Issue</a>，一起把这份指南补充得更好。</p>
 
 <details>
 <summary>写在前面</summary>
