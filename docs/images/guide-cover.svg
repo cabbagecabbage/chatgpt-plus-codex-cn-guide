@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="768" height="268.8" viewBox="0 0 1200 420" fill="none">
+  <title>ChatGPT Plus × Codex — 从订阅到用好，少走弯路。</title>
+  <desc>黑色封面上以大字呈现 ChatGPT Plus 与 Codex，右侧是薄荷绿、冰蓝和紫色交织的立体光环。注册订阅、避坑经验、模型选择。</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse"><stop stop-color="#071219"/><stop offset=".55" stop-color="#060B14"/><stop offset="1" stop-color="#13152C"/></linearGradient>
+    <radialGradient id="aura"><stop stop-color="#35EECC" stop-opacity=".25"/><stop offset=".5" stop-color="#36AACC" stop-opacity=".09"/><stop offset="1" stop-color="#36AACC" stop-opacity="0"/></radialGradient>
+    <radialGradient id="violet"><stop stop-color="#8966F5" stop-opacity=".20"/><stop offset="1" stop-color="#8966F5" stop-opacity="0"/></radialGradient>
+    <linearGradient id="spectrum" x1="770" y1="95" x2="1090" y2="340" gradientUnits="userSpaceOnUse"><stop stop-color="#D8FFF1"/><stop offset=".23" stop-color="#6FFFD2"/><stop offset=".53" stop-color="#4DD9E7"/><stop offset=".78" stop-color="#6F8CF3"/><stop offset="1" stop-color="#E2B9FF"/></linearGradient>
+    <linearGradient id="title" x1="111" y1="175" x2="521" y2="240" gradientUnits="userSpaceOnUse"><stop stop-color="#B6FFE4"/><stop offset=".5" stop-color="#72EED4"/><stop offset="1" stop-color="#91BAFF"/></linearGradient>
+    <linearGradient id="line" x1="62" y1="0" x2="662" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#76ECCC" stop-opacity=".5"/><stop offset="1" stop-color="#76ECCC" stop-opacity="0"/></linearGradient>
+    <clipPath id="frame"><rect x="1" y="1" width="1198" height="418" rx="25"/></clipPath>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="9"/></filter>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="420" fill="url(#background)"/>
+    <ellipse cx="904" cy="184" rx="343" ry="290" fill="url(#aura)"/>
+    <ellipse cx="1161" cy="385" rx="370" ry="240" fill="url(#violet)"/>
+    <g stroke="#87CFC8" stroke-opacity=".065">
+      <path d="M702 0V420M1170 0V420M0 360H1200"/>
+      <path d="M730 59H1150M730 363H1150"/>
+    </g>
+    <g transform="rotate(-33 933 211)">
+      <ellipse cx="933" cy="211" rx="176" ry="129" stroke="url(#spectrum)" stroke-width="14" opacity=".16" filter="url(#soft)"/>
+      <ellipse cx="933" cy="185.00" rx="112.00" ry="81.00" stroke="url(#spectrum)" stroke-width="1.00" opacity="0.20"/>
+      <ellipse cx="933" cy="186.41" rx="117.85" ry="85.33" stroke="url(#spectrum)" stroke-width="1.05" opacity="0.25"/>
+      <ellipse cx="933" cy="187.81" rx="123.66" ry="89.62" stroke="url(#spectrum)" stroke-width="1.09" opacity="0.30"/>
+      <ellipse cx="933" cy="189.22" rx="129.39" ry="93.85" stroke="url(#spectrum)" stroke-width="1.14" opacity="0.35"/>
+      <ellipse cx="933" cy="190.62" rx="134.99" ry="97.99" stroke="url(#spectrum)" stroke-width="1.18" opacity="0.40"/>
+      <ellipse cx="933" cy="192.03" rx="140.42" ry="102.01" stroke="url(#spectrum)" stroke-width="1.23" opacity="0.45"/>
+      <ellipse cx="933" cy="193.43" rx="145.65" ry="105.87" stroke="url(#spectrum)" stroke-width="1.27" opacity="0.49"/>
+      <ellipse cx="933" cy="194.84" rx="150.64" ry="109.56" stroke="url(#spectrum)" stroke-width="1.31" opacity="0.54"/>
+      <ellipse cx="933" cy="196.24" rx="155.35" ry="113.04" stroke="url(#spectrum)" stroke-width="1.35" opacity="0.58"/>
+      <ellipse cx="933" cy="197.65" rx="159.74" ry="116.29" stroke="url(#spectrum)" stroke-width="1.38" opacity="0.62"/>
+      <ellipse cx="933" cy="199.05" rx="163.80" ry="119.28" stroke="url(#spectrum)" stroke-width="1.41" opacity="0.65"/>
+      <ellipse cx="933" cy="200.46" rx="167.48" ry="122.00" stroke="url(#spectrum)" stroke-width="1.44" opacity="0.68"/>
+      <ellipse cx="933" cy="201.86" rx="170.76" ry="124.43" stroke="url(#spectrum)" stroke-width="1.47" opacity="0.71"/>
+      <ellipse cx="933" cy="203.27" rx="173.61" ry="126.54" stroke="url(#spectrum)" stroke-width="1.49" opacity="0.74"/>
+      <ellipse cx="933" cy="204.68" rx="176.02" ry="128.32" stroke="url(#spectrum)" stroke-width="1.51" opacity="0.76"/>
+      <ellipse cx="933" cy="206.08" rx="177.98" ry="129.76" stroke="url(#spectrum)" stroke-width="1.53" opacity="0.77"/>
+      <ellipse cx="933" cy="207.49" rx="179.45" ry="130.86" stroke="url(#spectrum)" stroke-width="1.54" opacity="0.79"/>
+      <ellipse cx="933" cy="208.89" rx="180.44" ry="131.59" stroke="url(#spectrum)" stroke-width="1.55" opacity="0.80"/>
+      <ellipse cx="933" cy="210.30" rx="180.94" ry="131.95" stroke="url(#spectrum)" stroke-width="1.55" opacity="0.80"/>
+      <ellipse cx="933" cy="211.70" rx="180.94" ry="131.95" stroke="url(#spectrum)" stroke-width="1.55" opacity="0.80"/>
+      <ellipse cx="933" cy="213.11" rx="180.44" ry="131.59" stroke="url(#spectrum)" stroke-width="1.55" opacity="0.80"/>
+      <ellipse cx="933" cy="214.51" rx="179.45" ry="130.86" stroke="url(#spectrum)" stroke-width="1.54" opacity="0.79"/>
+      <ellipse cx="933" cy="215.92" rx="177.98" ry="129.76" stroke="url(#spectrum)" stroke-width="1.53" opacity="0.77"/>
+      <ellipse cx="933" cy="217.32" rx="176.02" ry="128.32" stroke="url(#spectrum)" stroke-width="1.51" opacity="0.76"/>
+      <ellipse cx="933" cy="218.73" rx="173.61" ry="126.54" stroke="url(#spectrum)" stroke-width="1.49" opacity="0.74"/>
+      <ellipse cx="933" cy="220.14" rx="170.76" ry="124.43" stroke="url(#spectrum)" stroke-width="1.47" opacity="0.71"/>
+      <ellipse cx="933" cy="221.54" rx="167.48" ry="122.00" stroke="url(#spectrum)" stroke-width="1.44" opacity="0.68"/>
+      <ellipse cx="933" cy="222.95" rx="163.80" ry="119.28" stroke="url(#spectrum)" stroke-width="1.41" opacity="0.65"/>
+      <ellipse cx="933" cy="224.35" rx="159.74" ry="116.29" stroke="url(#spectrum)" stroke-width="1.38" opacity="0.62"/>
+      <ellipse cx="933" cy="225.76" rx="155.35" ry="113.04" stroke="url(#spectrum)" stroke-width="1.35" opacity="0.58"/>
+      <ellipse cx="933" cy="227.16" rx="150.64" ry="109.56" stroke="url(#spectrum)" stroke-width="1.31" opacity="0.54"/>
+      <ellipse cx="933" cy="228.57" rx="145.65" ry="105.87" stroke="url(#spectrum)" stroke-width="1.27" opacity="0.49"/>
+      <ellipse cx="933" cy="229.97" rx="140.42" ry="102.01" stroke="url(#spectrum)" stroke-width="1.23" opacity="0.45"/>
+      <ellipse cx="933" cy="231.38" rx="134.99" ry="97.99" stroke="url(#spectrum)" stroke-width="1.18" opacity="0.40"/>
+      <ellipse cx="933" cy="232.78" rx="129.39" ry="93.85" stroke="url(#spectrum)" stroke-width="1.14" opacity="0.35"/>
+      <ellipse cx="933" cy="234.19" rx="123.66" ry="89.62" stroke="url(#spectrum)" stroke-width="1.09" opacity="0.30"/>
+      <ellipse cx="933" cy="235.59" rx="117.85" ry="85.33" stroke="url(#spectrum)" stroke-width="1.05" opacity="0.25"/>
+      <ellipse cx="933" cy="237.00" rx="112.00" ry="81.00" stroke="url(#spectrum)" stroke-width="1.00" opacity="0.20"/>
+      <ellipse cx="933" cy="185" rx="112" ry="81" stroke="url(#spectrum)" stroke-width="2.2" opacity=".85"/>
+      <ellipse cx="933" cy="237" rx="112" ry="81" stroke="url(#spectrum)" stroke-width="1.2" opacity=".4"/>
+    </g>
+    <g stroke="#DFFFF6" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="m905 195 20 17-20 17M941 229h23"/>
+    </g>
+    <g fill="#BDFFF0">
+      <circle cx="794" cy="90" r="3"/><circle cx="1105" cy="297" r="3"/>
+      <circle cx="1051" cy="57" r="1.5" opacity=".6"/><circle cx="748" cy="300" r="1.5" opacity=".5"/>
+    </g>
+    <path d="M1120 92v14m-7-7h14" stroke="#8DDED7" stroke-opacity=".7"/>
+    <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+      <path d="M63 52H88" stroke="#7AF3CA" stroke-width="3" stroke-linecap="round"/>
+      <text x="102" y="58" fill="#A6C3C7" font-size="14" letter-spacing="3">订阅与使用指南</text>
+      <text x="60" y="145" fill="#F0F7FA" font-size="68" font-weight="750" letter-spacing="-2.8">ChatGPT Plus</text>
+      <text x="62" y="224" fill="#719799" font-size="49" font-weight="300">×</text>
+      <text x="111" y="227" fill="url(#title)" font-size="81" font-weight="750" letter-spacing="-2.6">Codex</text>
+      <text x="63" y="291" fill="#E0EDEB" font-size="29" font-weight="500">从订阅到用好，少走弯路。</text>
+      <path d="M63 322H635" stroke="url(#line)"/>
+      <g font-size="18" fill="#AFC8CA">
+        <text x="63" y="364">注册订阅</text>
+        <text x="199" y="364">避坑经验</text>
+        <text x="335" y="364">模型选择</text>
+      </g>
+      <g fill="#498477"><circle cx="172" cy="358" r="2"/><circle cx="308" cy="358" r="2"/></g>
+    </g>
+  </g>
+  <rect x=".75" y=".75" width="1198.5" height="418.5" rx="25" stroke="#456365" stroke-opacity=".5" stroke-width="1.5"/>
+</svg>
