@@ -1,14 +1,39 @@
-# ChatGPT Plus 国内订阅与 Codex 使用避坑指南（2026.9.13）
+<p align="center">
+  <img src="docs/images/guide-hero.svg" alt="ChatGPT Plus × Codex：从订阅到用好，少走弯路。注册订阅、真实踩坑记录与模型选择指南。" width="100%">
+</p>
 
-## 写在前面
+<h1 align="center">ChatGPT Plus 国内订阅与 Codex 使用避坑指南</h1>
 
-写这篇教程，是想记录楼主踩过的坑，帮后来者少走弯路。如果你有更好的方案、实际经验，或发现文中有不确定的地方，欢迎提 Issue，楼主看到会回复，也希望大家一起补充完善。觉得有帮助的话，顺手点个 Star 支持一下～
+<p align="center">从开通 Plus 到选好模型，把楼主踩过的坑和实际使用经验整理给你。</p>
 
-## 看完本文你可以获得什么
+<p align="center">
+  <a href="#二章节跳转目录"><img src="https://img.shields.io/badge/阅读指南-简体中文-78E5BC?style=flat-square&amp;labelColor=172C2B" alt="阅读指南：简体中文"></a>
+  <a href="#附录楼主使用记录持续更新"><img src="https://img.shields.io/badge/使用记录-持续补充-91C8F6?style=flat-square&amp;labelColor=172C2B" alt="使用记录：持续补充"></a>
+  <a href="https://github.com/cabbagecabbage/chatgpt-plus-codex-cn-guide/stargazers"><img src="https://img.shields.io/github/stars/cabbagecabbage/chatgpt-plus-codex-cn-guide?style=flat-square&amp;label=Star&amp;color=E9CB83&amp;labelColor=172C2B" alt="GitHub Stars"></a>
+</p>
 
-只要具备稳定的海外代理，跟着本文一步步操作，100% 可以掌握注册、订阅并长期稳定使用 ChatGPT Plus 的方法，规避所有楼主踩过的坑。
+<p align="center">
+  <a href="#六通过美区-apple-id-为-chatgpt-添加订阅"><strong>开通 Plus</strong></a> ·
+  <a href="#七codex-短信接码"><strong>付款前看避坑</strong></a> ·
+  <a href="#十一codex-模型与推理强度选择"><strong>选择模型</strong></a> ·
+  <a href="#二章节跳转目录"><strong>全部章节</strong></a>
+</p>
 
-本文还会结合实际使用场景和额度成本，给出 Codex 模型与推理强度的选择路径。
+| 准备注册与订阅 | 已经开始用 Codex | 想把常用操作变简单 |
+| :--- | :--- | :--- |
+| 邮箱、Apple ID、礼品卡与 Plus 订阅，把步骤串起来 | 手机验证、额度成本、模型与推理强度，结合实际经验选择 | 用开源三档滑块，一次选好模型与推理强度 |
+| [从准备账号开始 →](#三注册-gmail) | [看看模型怎么选 →](#十一codex-模型与推理强度选择) | [查看滑块工具（中文）→](https://github.com/cabbagecabbage/codex-model-slider/blob/main/README.zh-CN.md) |
+
+**觉得有帮助，欢迎点个 Star ⭐ 支持一下！** 有新经验或发现内容需要更新，也欢迎[提 Issue](https://github.com/cabbagecabbage/chatgpt-plus-codex-cn-guide/issues)，一起把这份指南补充得更好。
+
+<details>
+<summary>写在前面：这份指南从哪里来？</summary>
+
+写这篇教程，是想记录楼主在注册、订阅和使用中的实际经历，帮后来者少走弯路。除了操作步骤，也会结合任务类型和额度成本，分享 Codex 模型与推理强度的选择思路。
+
+文中的使用记录和分析各自标注了时间，方便判断适用范围。这是个人经验整理，非官方指南；账号情况和页面流程有变化时，也欢迎大家补充反馈。
+
+</details>
 
 ---
 
