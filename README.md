@@ -19,7 +19,7 @@
   <a href="#二章节跳转目录"><strong>全部章节</strong></a>
 </p>
 
-| 注册账号 | 付款订阅 | 使用 Codex | 三档滑块工具 |
+| 注册准备 | 付款订阅 | 使用 Codex | 三档滑块工具 |
 | :--- | :--- | :--- | :--- |
 | 准备邮箱，注册 ChatGPT 账号 | 准备美区 Apple ID 和礼品卡，开通 Plus | 按任务选择模型与推理强度 | 一次选好常用模型与推理强度 |
 | [从注册开始 →](#三注册-gmail) | [查看订阅步骤 →](#六通过美区-apple-id-为-chatgpt-添加订阅) | [看看模型怎么选 →](#十一codex-模型与推理强度选择) | [查看工具（中文）→](https://github.com/cabbagecabbage/codex-model-slider/blob/main/README.zh-CN.md) |
