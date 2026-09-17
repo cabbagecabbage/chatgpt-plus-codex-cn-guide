@@ -14,7 +14,7 @@
 
 <p align="center">
   <a href="#六通过美区-apple-id-为-chatgpt-添加订阅"><strong>开通 Plus</strong></a> ·
-  <a href="#七codex-短信接码"><strong>付款前看避坑</strong></a> ·
+  <a href="#五付款前必须知道的事"><strong>付款前看避坑</strong></a> ·
   <a href="#十一codex-模型与推理强度选择"><strong>选择模型</strong></a> ·
   <a href="#二章节跳转目录"><strong>全部章节</strong></a>
 </p>
@@ -70,7 +70,8 @@ ChatGPT Work 和 Codex 的注册、订阅与使用流程基本一致，但 Codex
 |---|---|
 | 注册海外邮箱 | [第三章：注册 Gmail](#三注册-gmail) |
 | 注册 ChatGPT 账号 | [第四章：注册 ChatGPT 账号](#四注册-chatgpt-账号) |
-| 注册美区 Apple ID | [第五章：注册美区 Apple ID](#五注册美区-apple-id) |
+| 了解付款账号、Codex 验证和退款注意事项 | [第五章：付款前必须知道的事](#五付款前必须知道的事) |
+| 准备美区 Apple ID 与礼品卡 | [第六章：订阅准备](#六通过美区-apple-id-为-chatgpt-添加订阅) |
 | 通过美区 Apple ID 订阅 Plus | [第六章：通过美区 Apple ID 为 ChatGPT 添加订阅](#六通过美区-apple-id-为-chatgpt-添加订阅) |
 | Codex 手机号验证与接码 | [第七章：Codex 短信接码](#七codex-短信接码) |
 | 使用 CC Switch 切换 Codex 登录状态 | [第八章：使用 CC Switch 切换登录状态，避免反复退出登录](#八使用-cc-switch-切换登录状态避免反复退出登录) |
@@ -86,7 +87,7 @@ ChatGPT Work 和 Codex 的注册、订阅与使用流程基本一致，但 Codex
 
 本章只适用于还没有可长期使用的海外邮箱的用户。
 
-- 已有 ChatGPT 账号：直接看[第五章：注册美区 Apple ID](#五注册美区-apple-id)。
+- 已有 ChatGPT 账号：直接看[第五章：付款前必须知道的事](#五付款前必须知道的事)。
 - 已有海外邮箱，但还没有 ChatGPT 账号：直接看[第四章：注册 ChatGPT 账号](#四注册-chatgpt-账号)。
 
 Gmail 主要用于注册 ChatGPT 账号；如果你已经有其他可长期使用的海外邮箱，不必重复注册 Gmail。
@@ -112,7 +113,7 @@ Gmail 主要用于注册 ChatGPT 账号；如果你已经有其他可长期使�
 
 ## 四、注册 ChatGPT 账号
 
-本章只适用于还没有 ChatGPT 账号的用户。已有 ChatGPT 账号的用户，可以直接跳到[第五章：注册美区 Apple ID](#五注册美区-apple-id)。
+本章只适用于还没有 ChatGPT 账号的用户。已有 ChatGPT 账号的用户，可以直接跳到[第五章：付款前必须知道的事](#五付款前必须知道的事)。
 
 ### 注册 ChatGPT
 
@@ -137,20 +138,53 @@ Gmail 主要用于注册 ChatGPT 账号；如果你已经有其他可长期使�
 
 ---
 
-## 五、注册美区 Apple ID
+## 五、付款前必须知道的事
 
-> [!CAUTION]
-> Codex 用户付款前必读：如果你准备使用 Codex，请先阅读[第七章：Codex 短信接码](#七codex-短信接码)，确认自己能够接受手机号验证相关风险后再付款。
+先把下面几件事弄清楚，再买礼品卡、开通订阅。这里直接说重点，看完顺着往下操作即可。
 
-如果有海外信用卡，可以直接在 ChatGPT 网页端订阅，无需准备美区 Apple ID，还可以享受一个月免费试用。
+### 确认 ChatGPT 账号和付款 Apple ID
 
-本章只适用于没有海外信用卡、还没有美区 Apple ID，并准备通过 iOS 内购订阅 Plus 的用户。已有美区 Apple ID 的用户，可以直接跳到[第六章：通过美区 Apple ID 为 ChatGPT 添加订阅](#六通过美区-apple-id-为-chatgpt-添加订阅)。
+**ChatGPT 账号决定订阅给谁用，Apple ID 决定由谁付款。** 这是两个不同的账号，付款前都要核对。
 
-### 注册美区 Apple ID
+- ChatGPT 登录的是你准备长期使用的账号，邮箱和登录方式要记清楚。
+- App Store“媒体与购买项目”登录的是你准备付款的美区 Apple ID。
+- 如果这个 Apple ID 曾给其他 ChatGPT 账号买过订阅，或当前 ChatGPT 账号曾通过其他 Apple ID 订阅，先弄清现有订阅归属，不要直接再次付款。
+
+楼主曾遇到换了 ChatGPT 账号后，重新购买的订阅仍关联旧账号的情况，注销旧账号也没解决。**不要把换账号、重装 App 或再次付款当成解决绑定问题的办法。**
+
+### 为了使用 Codex 订阅，先确认自己能登录
+
+只使用 ChatGPT 的读者，不需要按楼主的 Codex 经历额外准备接码服务。准备使用 Codex 的话，建议先用目标账号尝试登录，看看自己是否会遇到手机验证。
+
+楼主在 2026 年 7 月遇到过首次绑定手机号，以及后续向原号码发送验证码的二次验证。当时客服回复不支持更换绑定号码，因此要特别注意：
+
+- 页面要求验证时，优先用自己能长期接收验证码的号码。
+- 临时接码只能解决当次收码，不能保证以后还能用同一个号码验证。
+- 如果原号码失效，后续登录可能受阻，联系客服也不保证能恢复。
+
+先判断自己能否接受这些情况，再决定是否付款。第七章保留了楼主的接码和申诉经历，后面按需阅读即可。
+
+### 退款不一定能兜底
+
+楼主当时首次退款获批，后续退款和复核被拒。不要抱着“买错了再退”的想法反复付款；具体经过和客服截图放在下一章的订阅问题后面。
+
+下面记录楼主使用的 **美区 Apple ID + 礼品卡 + iOS 内购** 路线。如果你选择在 ChatGPT 网页端付款，按账号页面显示的付款方式和优惠操作即可，无需准备 Apple ID 和礼品卡。
+
+---
+
+## 六、通过美区 Apple ID 为 ChatGPT 添加订阅
+
+这一章按准备 Apple ID、购买礼品卡、开通 Plus 的顺序操作。已经准备好的部分略过即可。
+
+<a name="五注册美区-apple-id"></a>
+
+### 第一步：准备美区 Apple ID
+
+已有美区 Apple ID 就不用重新注册。
 
 美区 Apple ID 的注册教程网上有很多，可以在 Google 搜索“美区 Apple ID 注册教程”，参考搜索结果中的知乎、GitHub 等平台上的经验文章，优先选择发布时间较近、步骤和截图比较完整的教程。一般跟着教程一步步操作，问题不会太大。注册完成后，再继续看下文的美区礼品卡和 Plus 订阅步骤。
 
-### 购买美区 Apple Gift Card
+### 第二步：购买美区 Apple Gift Card
 
 楼主优先通过支付宝购买美区 Apple Gift Card。
 
@@ -167,31 +201,14 @@ Gmail 主要用于注册 ChatGPT 账号；如果你已经有其他可长期使�
 > [!WARNING]
 > 坑点：每月月初约前 5～7 天，支付宝可能显示“正在补货”，此时只能等待补货；急用时可以考虑闲鱼。
 
----
 
-## 六、通过美区 Apple ID 为 ChatGPT 添加订阅
+### 第三步：在 ChatGPT App 中开通 Plus
 
-> [!CAUTION]
-> Codex 用户付款前必读：如果你准备使用 Codex，请先阅读[第七章：Codex 短信接码](#七codex-短信接码)，确认自己能够接受手机号验证相关风险后再付款。
-
-本章介绍如何使用美区 Apple ID 通过 iOS 为 ChatGPT 添加 Plus 订阅。
-
-### 付款前必须确认
-
-1. 使用美区 Apple ID 登录 App Store，下载 OpenAI 官方 ChatGPT App。
-2. ChatGPT App 登录的是准备长期使用的目标 ChatGPT 账号。
-3. App Store“媒体与购买项目”登录的是准备扣款的目标 Apple ID。
-
-> [!CAUTION]
-> 坑点：Apple ID 一旦成功为某个 ChatGPT 账号付款，二者就会永久绑定，目前没有任何解绑方式。付款前请务必确认：这个 Apple ID 之前没有为其他 ChatGPT 账号充值过；当前 ChatGPT 账号也没有被其他 Apple ID 充值过。这是楼主的血泪教训，详见后面的[楼主心路历程](#楼主心路历程)。
-
-### 订阅步骤
-
-1. 打开已下载的 OpenAI 官方 ChatGPT App。
-2. 登录目标 ChatGPT 账号，再次核对邮箱和登录方式。
-3. 打开套餐升级入口，选择 ChatGPT Plus。
-4. 通过 Apple 内购确认付款。
-5. 付款后确认当前 ChatGPT 账号已经显示 Plus。
+1. 使用准备付款的美区 Apple ID 登录 App Store，下载 OpenAI 官方 ChatGPT App。
+2. 在 ChatGPT App 登录准备长期使用的目标账号，核对邮箱和登录方式。
+3. 确认 App Store“媒体与购买项目”显示的是准备扣款的 Apple ID。
+4. 在 ChatGPT App 打开套餐升级入口，选择 ChatGPT Plus，确认订阅信息后通过 Apple 内购付款。
+5. 付款后确认目标 ChatGPT 账号已经显示 Plus。
 
 ### Apple 余额无法完成购买
 
@@ -202,8 +219,7 @@ Gmail 主要用于注册 ChatGPT 账号；如果你已经有其他可长期使�
 
 ### 订阅绑错账号怎么办
 
-> [!CAUTION]
-> 坑点：iOS 订阅会绑定付款时的 Apple ID 和 ChatGPT 账号，目前不能换绑或转移，注销账号、重装 App 也无法解除。付款前确认：这个 Apple ID 没有为其他 ChatGPT 账号付款过，当前 ChatGPT 账号也没有被其他 Apple ID 购买过。楼主曾踩过此坑，详见[楼主心路历程](#楼主心路历程)。
+先核对购买记录、付款 Apple ID 和 ChatGPT 登录账号，弄清订阅归属再联系支持。楼主当时经历了重新购买、退款和复核，没能通过换账号解决，具体经过如下。
 
 #### 楼主心路历程
 
