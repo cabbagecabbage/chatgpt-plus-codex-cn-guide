@@ -4,10 +4,10 @@
   <img src="docs/images/guide-cover.svg" alt="ChatGPT Plus × Codex：从订阅到用好，少走弯路。注册订阅、真实踩坑记录与模型选择指南。" width="100%">
 </p>
 
-| 账号准备 | 付款订阅 | 使用 Codex | 三档滑块工具 |
-| :--- | :--- | :--- | :--- |
-| 准备邮箱，注册 ChatGPT 账号 | 准备美区 Apple ID 和礼品卡，开通 Plus | 按任务选择模型与推理强度 | 一次选好常用模型与推理强度 |
-| [从注册开始 →](#三注册-gmail) | [付款前必读 →](#五付款前必须知道的事) | [看看模型怎么选 →](#十三codex-模型与推理强度选择) | [查看工具（中文）→](https://github.com/cabbagecabbage/codex-model-slider/blob/main/README.zh-CN.md) |
+| 账号准备 | 付款订阅 | 使用 Codex |
+| :--- | :--- | :--- |
+| 准备邮箱，注册 ChatGPT 账号 | 准备美区 Apple ID 和礼品卡，开通 Plus | 按任务选择模型与推理强度 |
+| [从注册开始 →](#三注册-gmail) | [付款前必读 →](#五付款前必须知道的事) | [看看模型怎么选 →](#十三codex-模型与推理强度选择) |
 
 <p align="center"><strong>觉得有帮助，欢迎点个 Star ⭐ 支持一下！</strong> 有新经验或发现内容需要更新，也欢迎<a href="https://github.com/cabbagecabbage/chatgpt-plus-codex-cn-guide/issues">提 Issue</a>，一起把这份指南补充得更好。</p>
 
@@ -71,7 +71,6 @@ ChatGPT Work 和 Codex 的注册、订阅与使用流程基本一致，但 Codex
 | 使用楼主自用中转 | [第十一章：楼主自用中转](#十一楼主自用中转) |
 | 比较 Codex 周额度和中转站的性价比 | [第十二章：Codex 周额度理论倍率与中转站性价比对比](#十二codex-周额度理论倍率与中转站性价比对比) |
 | 选择 Codex 模型、推理强度和升档路线 | [第十三章：Codex 模型与推理强度选择](#十三codex-模型与推理强度选择) |
-| 把常用模型与推理强度放进三档滑块（macOS） | [楼主的开源小工具：Codex Model Slider](#把常用组合放进滑块macos) |
 | 检测 Codex 是否降智及如何恢复 | [第十四章：Codex 降智：快速自测与解决方案](#十四codex-降智快速自测与解决方案) |
 
 ---
@@ -415,14 +414,6 @@ Gmail 主要用于注册 ChatGPT 账号；如果你已经有其他可长期使�
 **不推荐 GPT-6 Luna：** Max 档的雷达 IQ 只有 82，楼主使用下来也觉得效果较差，省额度仍推荐 GPT-5.6 Luna Max。
 
 按任务直接选，不用逐级尝试。推荐依据见[模型与推理强度选择：三个推荐档位](docs/model-selection-and-reasoning.md)。
-
-### 把常用组合放进滑块（macOS）
-
-楼主的开源工具 **[Codex Model Slider（中文说明）](https://github.com/cabbagecabbage/codex-model-slider/blob/main/README.zh-CN.md)**，把滑块改成 **Luna Max → Sol High → Astra Medium**，拖一下就能同时切换模型与推理强度。
-
-**一行安装到桌面，以后双击启动。** [查看安装命令和使用说明 →](https://github.com/cabbagecabbage/codex-model-slider/blob/main/README.zh-CN.md#快速使用)
-
-觉得有用，欢迎到[项目页面](https://github.com/cabbagecabbage/codex-model-slider)点个 **Star ⭐**！
 
 ---
 
