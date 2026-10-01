@@ -1,4 +1,4 @@
-<h1 align="center">ChatGPT Plus 国内订阅与 Codex 使用避坑指南（2026.9.18 更新）</h1>
+<h1 align="center">ChatGPT Plus 国内订阅与 Codex 使用避坑指南（2026.10.1 更新）</h1>
 
 <p align="center">
   <img src="docs/images/guide-cover.svg" alt="ChatGPT Plus × Codex：从订阅到用好，少走弯路。注册订阅、真实踩坑记录与模型选择指南。" width="100%">
@@ -21,6 +21,8 @@
 只要具备稳定的海外代理，跟着本文一步步操作，100% 可以掌握注册、订阅并长期稳定使用 ChatGPT Plus 的方法，规避所有楼主踩过的坑。
 
 本文还会结合实际使用场景和额度成本，给出 Codex 模型与推理强度的选择路径。
+
+模型表现突然变差时，可以参考[《Codex 降智：快速自测与解决方案》](docs/model-quality-check.md)，用鹈鹕测试观察代码生成能力。
 
 </details>
 
@@ -70,6 +72,7 @@ ChatGPT Work 和 Codex 的注册、订阅与使用流程基本一致，但 Codex
 | 比较 Codex 周额度和中转站的性价比 | [第十二章：Codex 周额度理论倍率与中转站性价比对比](#十二codex-周额度理论倍率与中转站性价比对比) |
 | 选择 Codex 模型、推理强度和升档路线 | [第十三章：Codex 模型与推理强度选择](#十三codex-模型与推理强度选择) |
 | 把常用模型与推理强度放进三档滑块（macOS） | [楼主的开源小工具：Codex Model Slider](#把常用组合放进滑块macos) |
+| 检测 Codex 是否降智及如何恢复 | [第十四章：Codex 降智：快速自测与解决方案](#十四codex-降智快速自测与解决方案) |
 
 ---
 
@@ -416,6 +419,17 @@ Gmail 主要用于注册 ChatGPT 账号；如果你已经有其他可长期使�
 **一行安装到桌面，以后双击启动。** [查看安装命令和使用说明 →](https://github.com/cabbagecabbage/codex-model-slider/blob/main/README.zh-CN.md#快速使用)
 
 觉得有用，欢迎到[项目页面](https://github.com/cabbagecabbage/codex-model-slider)点个 **Star ⭐**！
+
+---
+
+## 十四、Codex 降智：快速自测与解决方案
+
+1. **什么是降智：** 选择的 Astra、Sol 等大模型被替换成 Luna、GPT-5.5 mini 等小模型。
+2. **为什么会降智：** IP 频繁变动或纯净度不高、订阅重新分发等违反 OpenAI 用户使用协议的行为被检测到后，会触发降智。
+3. **怎么自测：** 让模型生成“鹈鹕骑自行车”的 SVG 动画，对照文中的 Astra、Sol、Luna 三张实测 GIF，观察代码生成效果。
+4. **如何恢复：** 停止违规行为，将账号静置，等待动态重新评估；楼主的 20 倍 Pro 账号静置三天后恢复正常。
+
+测试提示词、三组效果对比和恢复经历，见[《Codex 降智：快速自测与解决方案》](docs/model-quality-check.md)。
 
 ---
 
