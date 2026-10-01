@@ -1,0 +1,82 @@
+name: 新 Issue 微信提醒
+
+on:
+  issues:
+    types: [opened]
+  workflow_dispatch:
+
+# The event payload supplies everything needed; no repository token or checkout.
+permissions: {}
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: 通过 Server酱发送微信提醒
+        env:
+          SERVERCHAN_SENDKEY: ${{ secrets.SERVERCHAN_SENDKEY }}
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json
+          import os
+          import re
+          import sys
+          import urllib.error
+          import urllib.parse
+          import urllib.request
+
+          def fail(message):
+              print(message, file=sys.stderr)
+              sys.exit(1)
+
+          key = os.environ.get("SERVERCHAN_SENDKEY", "").strip()
+          if not key:
+              fail("请在仓库 Actions Secrets 中设置 SERVERCHAN_SENDKEY。")
+          if not re.fullmatch(r"SCT[0-9A-Za-z]+", key):
+              fail("请使用 Server酱 Turbo 的 SCT 开头 SendKey。")
+
+          repository = os.environ["GITHUB_REPOSITORY"]
+          event_name = os.environ["GITHUB_EVENT_NAME"]
+          if event_name == "issues":
+              with open(os.environ["GITHUB_EVENT_PATH"], encoding="utf-8") as file:
+                  event = json.load(file)
+              if event.get("action") != "opened":
+                  fail("仅处理新建 Issue。")
+              issue = event["issue"]
+              number = int(issue["number"])
+              # Treat the title as data; never interpolate event text into shell code.
+              clean_title = " ".join(issue["title"].split())
+              clean_title = "".join(char for char in clean_title if char.isprintable())
+              title = f"新 Issue #{number}：{clean_title}"[:32]
+              description = (
+                  f"仓库：{repository}\n\n"
+                  f"[查看 Issue #{number}](https://github.com/{repository}/issues/{number})"
+              )
+          elif event_name == "workflow_dispatch":
+              title = "GitHub 微信通知测试"
+              description = (
+                  f"仓库：{repository}\n\n"
+                  f"[打开 Issues](https://github.com/{repository}/issues)\n\n"
+                  "收到这条消息，说明微信通知已接通。"
+              )
+          else:
+              fail("不支持此通知事件。")
+
+          data = urllib.parse.urlencode({"title": title, "desp": description}).encode("utf-8")
+          request = urllib.request.Request(
+              f"https://sctapi.ftqq.com/{key}.send", data=data, method="POST"
+          )
+          try:
+              with urllib.request.urlopen(request, timeout=20) as response:
+                  result = json.load(response)
+          except urllib.error.HTTPError as error:
+              fail(f"Server酱返回 HTTP {error.code}，请检查通道与额度。")
+          except Exception:
+              # Exception URLs can contain the SendKey; never print them or API bodies.
+              fail("发送失败，请检查 Server酱状态后手动重试。")
+          if not isinstance(result, dict) or result.get("code") != 0:
+              fail("Server酱未接受推送，请在其控制台检查通道与额度。")
+          print("Server酱已接受推送，请在微信查看通知。")
+          PY
