@@ -1,4 +1,4 @@
-<h1 align="center">ChatGPT Plus 国内订阅与 Codex 使用避坑指南（2026.10.12 更新）</h1>
+<h1 align="center">ChatGPT Plus 国内订阅与 Codex 使用避坑指南（2026.10.19 更新）</h1>
 
 <p align="center">
   <img src="docs/images/guide-cover.svg" alt="ChatGPT Plus × Codex：从订阅到用好，少走弯路。注册订阅、真实踩坑记录与模型选择指南。" width="100%">
